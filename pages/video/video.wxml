@@ -1,0 +1,9 @@
+<view id="container">
+	<view id="video">
+		<video src='{{videoUrl}}' id="video_content" enable-danmu='true' danmu-btn='true'></video>
+	</view>
+	<view id="danmu">
+		<input bindblur="bindInputBlur"/>
+		<button bindtap="bindSendDanmu">发送弹幕</button>
+	</view>
+</view>

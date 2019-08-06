@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/hotshowing/hotshowing",
+    "pages/detail/detail",
+    "pages/ranking/ranking",
+    "pages/newmovie/newovie",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/video/video"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/hotshowing/hotshowing",
+        "iconPath": "pages/resource/img/1.png",
+        "selectedIconPath": "pages/resource/img/1.1.png",
+        "text": "正在热映"
+      },
+      {
+        "pagePath": "pages/ranking/ranking",
+        "iconPath": "pages/resource/img/2.png",
+        "selectedIconPath": "pages/resource/img/2.1.png",
+        "text": "经典老片"
+      },
+      {
+        "pagePath": "pages/newmovie/newovie",
+        "iconPath": "pages/resource/img/3.png",
+        "selectedIconPath": "pages/resource/img/3.1.png",
+        "text": "新片速递"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

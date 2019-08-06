@@ -1,0 +1,33 @@
+#container{
+	width: 100%;
+	
+}
+#container text{
+	font-size:0.75rem ;
+}
+#movieImg{
+	width: 100%;
+	height: 400rpx;
+	display: flex;
+	justify-content: space-around;
+}
+#movieImg image{
+	width: 300rpx;
+	height: 100%;
+}
+#content,#bloopers,#casts,#summary{
+	width: 95%;
+	margin: 0rpx auto;
+}
+#bloopers text{
+	display: block;
+	color: #0000FF;
+}
+#casts{
+	display: flex;
+	justify-content: space-between;
+}
+#casts image{
+	width:23%;
+	height: 200rpx;
+}

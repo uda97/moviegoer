@@ -1,0 +1,17 @@
+<view id="container">
+	<view id="movieImg">
+		<image src="{{movie.images.medium}}"></image>
+	</view>
+	<view id="content">
+		<text>{{movie.content}}</text>
+	</view>
+	<view id='bloopers'>
+		<text wx:for="{{movie.trailers}}" wx:key='' bindtap='playvideo' id="{{item.resource_url}}">{{item.title}}</text>
+	</view>
+	<view id="casts">
+		<image wx:for='{{movie.casts}}' wx:key='' src="{{item.avatars.medium}}"></image>
+	</view>
+	<view id="summary">
+		<text>{{movie.summary}}</text>
+	</view>
+</view>

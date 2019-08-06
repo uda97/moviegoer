@@ -1,0 +1,11 @@
+<view id='movieList'>
+  <view class='movieItem' wx:for='{{movieList}}' wx:key=''>
+    <view class='img'>
+      <image src='{{item.images.medium}}'></image>
+    </view>
+    <view class='content'>
+      <text>{{item.content}}</text>
+      <text class='score'>{{item.rating.average}}</text>
+    </view>
+  </view>
+</view>
