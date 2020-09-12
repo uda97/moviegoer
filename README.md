@@ -1,5 +1,7 @@
+#:-( Sorry, the public interface of this project has been closed.See you next time,my friend.
 # moviegoer
 a wechat program
+
 使用Git Bshe here命令下载
 ~~~git
 git clone https://github.com/uda97/moviegoer.git
