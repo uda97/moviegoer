@@ -1,4 +1,4 @@
-#:-( Sorry, the public interface of this project has been closed.See you next time,my friend.
+# :-( Sorry, the public interface of this project has been closed.See you next time,my friend.
 # moviegoer
 a wechat program
 
